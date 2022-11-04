@@ -7,9 +7,9 @@
 
 # tree : intendation between parent and child is tree view
 # help : displayed the all cmd for run the script
-     * fs organize
-     * fs tree
-     * fs help
+     * node main.js tree
+     * node main.js organize
+     * node  main.js help
 # organize : organize all file into there respected directory based on the file extension
   
   
