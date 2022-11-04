@@ -1,0 +1,22 @@
+{
+  "name": "project-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MehraDevesh2022/File-Organizer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MehraDevesh2022/File-Organizer/issues"
+  },
+  "homepage": "https://github.com/MehraDevesh2022/File-Organizer#readme",
+    "bin": {
+      "foo": "main.js"
+    }
+}

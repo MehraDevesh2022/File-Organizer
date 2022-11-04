@@ -4,7 +4,8 @@ const path = require("path");
 
 function treeFn(targetPath) {
   if (targetPath == undefined) {
-    console.log("Please ennter the path..");
+    treeHelper(process.cwd(), "");
+      return;
   }
   if (fs.existsSync(targetPath) == true) {
     treeHelper(targetPath, " ");
