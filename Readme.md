@@ -5,12 +5,12 @@
   * eg : .txt .pdf .doc will store into document directory so on.
 
 
-# tree : intendation between parent and child is tree view
-# help : displayed the all cmd for run the script
+## tree : intendation between parent and child is tree view
+## help : displayed the all cmd for run the script
      * node main.js tree
      * node main.js organize
      * node  main.js help
-# organize : organize all file into there respected directory based on the file extension
+## organize : organize all file into there respected directory based on the file extension
   
   
   
