@@ -10,13 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/MehraDevesh2022/File-Organizer.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MehraDevesh2022/File-Organizer/issues"
   },
   "homepage": "https://github.com/MehraDevesh2022/File-Organizer#readme",
-    "bin": {
-      "foo": "main.js"
-    }
+  "bin" :{
+    "fs" : "main.js"
+  }
 }
