@@ -17,6 +17,6 @@
   ## how to use global :
     * use Shebang  syntax => #!/usr/bin/env node
     * npm init -y
-    *  "bin": {"fs": "main.js"}  make json object use anything as key 
+    * "bin": {"fs": "main.js"}  make a json object inside package.json file use anything as key 
     * npm link
     * now it will work with any directory on your local pc. use git bash and then cmd eg: fs tree 
