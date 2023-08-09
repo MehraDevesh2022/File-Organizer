@@ -1,22 +1,78 @@
 # File System Organizer
- ## Features of the Project 
-  * If you have numerous Files in a folder and they are not Properly arranged
-  * So you can use this tool to arrange them in specific directory according to their extension
-  * eg : .txt .pdf .doc will store into document directory so on.
+
+## Introduction
+
+File System Organizer is a convenient tool designed to help you manage and organize your files more effectively. If you find yourself dealing with a cluttered folder full of files without proper organization, this tool is here to help. It enables you to arrange files into specific directories based on their extensions, providing a clean and structured file management solution.
+
+## Features
+
+- Efficiently organizes files based on their extensions into appropriate directories.
+- Simplifies the process of arranging files for better file management.
+- Improves the overall organization and accessibility of your files.
+
+## How to Use
+
+### Tree
+
+To view the tree structure of the files:
+
+```bash
+node main.js tree
+
+```
+
+### Organize
+
+- To organize all files into their respective directories based on their file extensions:
+
+```bash
+node main.js organize "path"
+
+```
+
+### Help
+
+- To display all available commands:
+
+```bash
+node main.js help
+
+```
+
+## How to Use Globally
+
+- Add the Shebang syntax at the beginning of the main.js file: #!/usr/bin/env node
+- Initialize your project:
+
+```bash
+  npm init -y
+
+```
+
+- Update the "bin" field in your package.json file:
+
+```bash
+   "bin": {
+  "fs": "main.js"
+}
 
 
-## tree : intendation between parent and child is tree view
-## help : displayed the all cmd for run the script
-     * node main.js tree
-     * node main.js organize
-     * node  main.js help
-## organize : organize all file into there respected directory based on the file extension
-  
-  
-  
-  ## how to use global :
-    * use Shebang  syntax => #!/usr/bin/env node
-    * npm init -y
-    * "bin": {"fs": "main.js"}  make a json object inside package.json file use anything as key 
-    * npm link
-    * now it will work with any directory on your local pc. use git bash and then cmd eg: fs tree 
+```
+
+- Link the tool to make it globally accessible:
+
+```bash
+  npm link
+
+```
+
+- Now you can use the tool globally:
+
+```bash
+  fs tree "path"
+  fs organize "path"
+  fs help
+
+```
+
+**Note:** File System Organizer simplifies the process of file organization, making it easier to manage and access your files efficiently.
